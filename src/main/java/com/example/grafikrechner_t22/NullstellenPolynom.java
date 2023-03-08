@@ -9,7 +9,7 @@ public class NullstellenPolynom {
         Scanner scanner = new Scanner(System.in);
         double a, b, c, d;
 
-        System.out.println("Geben Sie die Koeffizienten des Polynoms ax^3 + bx^2 + cx + d ein:");
+        System.out.println("Gib die Koeffizienten des Polynoms ax^3 + bx^2 + cx + d ein:");
         System.out.print("a: ");
         a = scanner.nextDouble();
         System.out.print("b: ");
@@ -22,7 +22,7 @@ public class NullstellenPolynom {
         double discriminant = Math.pow(b, 2) - 4 * a * c;
 
         if (a == 0) {
-            System.out.println("Dies ist kein Polynom dritten Grades.");
+            System.out.println(" ist kein Polynom dritten Grades.");
         } else if (discriminant > 0) {
             double x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
             double x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
@@ -32,18 +32,17 @@ public class NullstellenPolynom {
             System.out.println("x1 = " + x1);
             System.out.println("x2 = " + x2);
             System.out.println("x3 = " + x3);
-        } else if (discriminant == 0) {
-            double x1 = (-b) / (2 * a);
+
 
             System.out.println("Die Nullstelle des Polynoms ist: ");
             System.out.println("x1 = " + x1);
         } else {
             double realPart = (-b) / (2 * a);
-            double imaginaryPart = Math.sqrt(-discriminant) / (2 * a);
+
 
             System.out.println("Die Nullstellen des Polynoms sind: ");
-            System.out.println("x1 = " + realPart + " + " + imaginaryPart + "i");
-            System.out.println("x2 = " + realPart + " - " + imaginaryPart + "i");
+            System.out.println("x1 = " + realPart);
+            System.out.println("x2 = " + realPart);
             System.out.println("x3 = " + (-b) / (2 * a));
         }
 

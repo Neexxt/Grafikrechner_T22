@@ -1,0 +1,8 @@
+<root>
+    <item name='java.awt.Component x'>
+        <annotation name='javafx.fxml.FXML'/>
+    </item>
+    <item name='java.awt.Component y'>
+        <annotation name='javafx.fxml.FXML'/>
+    </item>
+</root>
