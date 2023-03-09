@@ -24,7 +24,7 @@ import javafx.scene.layout.VBox;
 
 import javafx.stage.Stage;
 
-
+// jkd
 
 public class polynomfuenften extends Application {
 
