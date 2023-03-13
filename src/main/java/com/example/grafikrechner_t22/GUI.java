@@ -1,4 +1,4 @@
-package com.example.lk_grafikrechner;
+package com.example.grafikrechner_t22;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

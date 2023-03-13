@@ -1,3 +1,5 @@
+package com.example.grafikrechner_t22;
+
 public class Polynom_symetrie {
 
         static void Symetrie(int[] polynom, int polynomlength) {
